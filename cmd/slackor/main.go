@@ -17,7 +17,7 @@ func main() {
 	)
 
 	cmd := &cobra.Command{
-		Use:               "slack-tools <command> [args]",
+		Use:               "slackor <command> [args]",
 		Short:             "Slack tools",
 		CompletionOptions: cobra.CompletionOptions{DisableDefaultCmd: true},
 		PersistentPreRun: func(_ *cobra.Command, _ []string) {
